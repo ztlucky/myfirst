@@ -1,8 +1,9 @@
 <template>
     <img alt="Vue logo" src="../assets/logo.png" title="这是logo">
-     <title>标题</title>
+    
     <h1>一级标题</h1>
-    <h2>我是二级标题</h2>
+    <router-link to="/register"><h2>跳转注册页面</h2></router-link>
+    
     <h3>我是三级标题</h3>
     <h4>我是四级标题</h4>
     <h5>我是五级标题</h5>

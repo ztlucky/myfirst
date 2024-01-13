@@ -1,22 +1,14 @@
 <template>
 <div>
-注册页面
+ <User :userName="myname" :age="myage"></User>
 </div>
 </template>
-
-<script>
-export default{
- data(){
-  return{
-
-  }
- },
- components:{
-
-  }
-}
+<script setup>
+import { ref } from 'vue';
+import User from '@/components/User.vue'
+const myname = ref('章三')
+const myage = ref(12)
 </script>
-
 <style>
 
 
