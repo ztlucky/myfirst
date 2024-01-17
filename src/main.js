@@ -1,10 +1,12 @@
 import { createApp } from 'vue'
+import '@/assets/public.css'
+
 import App from './App.vue'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 import router from './router' //注册路由
 import *as ElementPlusIconsVue from '@element-plus/icons-vue' //导入图标
-
+// import './util/rem'
 const app = createApp(App)
 app.use(router)
 app.use(ElementPlus)

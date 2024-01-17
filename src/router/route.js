@@ -1,6 +1,8 @@
 import Index from '@/view/index.vue'
 import Register from '@/view/register.vue'
 import Login from '@/view/login.vue'
+import New from '@/view/new.vue'
+
 const routes =[
     {
     name:'index',
@@ -16,6 +18,11 @@ const routes =[
     name: 'register',
     path: '/register',
     component: Register
+},
+{
+    name: 'new',
+    path: '/new',
+    component: New
 }
 ];
 

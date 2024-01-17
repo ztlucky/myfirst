@@ -8,6 +8,7 @@
 <script  setup>
  
  import {RouterView} from 'vue-router'
+document.documentElement.style.fontSize = document.documentElement.clientWidth / 1920 * 100 + 'px';
 
 </script>
  
@@ -19,6 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+   
 }
 </style>
